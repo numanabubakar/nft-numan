@@ -7,12 +7,13 @@ interface Heading {
 function Button(props:Heading) {
 const {iconComp}=props;
   return (
-    <div className="flex justify-center items-center border border-indigo-500 bg-indigo-500 text-white rounded-md px-4  transition duration-500 ease select-none hover:bg-indigo-600 focus:outline-none focus:shadow-outline py-1 "
+    <div className="flex justify-center items-center border border-indigo-500 bg-indigo-500 text-white rounded-lg px-4  transition duration-500 ease select-none hover:bg-indigo-600 focus:outline-none focus:shadow-outline py-1  "
     >
 
 {iconComp}
     <button
     type="button"
+    className=''
     >
     {props.title}
   </button>
