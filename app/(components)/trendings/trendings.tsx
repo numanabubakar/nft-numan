@@ -10,7 +10,7 @@ interface Images {
 
 function Trendings(props:Images) {
   return (
-    <div className="py-4 ">
+    <div className="py-4 mx-auto ">
 <Image width={320} height={100}src={props.src1!} alt='trending' />
 <div className="flex gap-2 py-2">
 

@@ -23,9 +23,11 @@ import p15 from '@/public/p15.png'
 import p16 from '@/public/p16.png'
 
 import Creators from './(components)/Creators/creators'
+import Navbar from './(components)/navbar'
 function Home() {
   return (
     <div >
+      {/* <Navbar /> */}
 <Header />
 <div className='container  py-5 mx-auto grid lg:grid-cols-2 md:grid-cols-1  gap-10'>
 <div className='mt-10' >
@@ -52,7 +54,7 @@ function Home() {
 <h1 className='text-3xl font-bold py-2'> Trendings Collection</h1>
 <p className='text-light'>Checkout our weekly updated trending collection.</p>
 </div>
-<div className='container py-5 md:mx-auto  sm:mx-auto lg:mx-[150px] grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 '>
+<div className='container py-5 md:mx-auto sm:mx-auto  lg:mx-[150px] grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 '>
 <Trendings src1={img1.src} src2={img2.src}  heading="DSGN Animals"/>
 <Trendings src1={img3.src} src2={img3.src} heading="Magic Mushrooms"/>
 <Trendings src1={img4.src} src2={img4.src}  heading="Disco Machines"/>
