@@ -37,9 +37,9 @@ function Home() {
 <Button title="Get Started " iconComp={<GoRocket />}  />
 </div>
 <div className='flex justify-between w-9/12 py-4' >
-  <div className='text-3xl'><p className='font-bold'>240k+</p> <p>Total Sale</p></div>
-  <div className='text-3xl'> <p className='font-bold'>100k+</p> <p>Auctions</p></div>
-  <div className='text-3xl'> <p className='font-bold'> 240k+</p><p>Artists</p></div>
+  <div className='text-3xl'><p className='font-bold'>240k+</p> <p className='font-light'>Total Sale</p></div>
+  <div className='text-3xl'> <p className='font-bold'>100k+</p> <p className='font-light'>Auctions</p></div>
+  <div className='text-3xl'> <p className='font-bold'> 240k+</p><p className='font-light'>Artists</p></div>
 </div>
 </div>
 <div className='mx-auto'>
