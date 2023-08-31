@@ -21,9 +21,8 @@ import p13 from '@/public/p13.png'
 import p14 from '@/public/p14.png'
 import p15 from '@/public/p15.png'
 import p16 from '@/public/p16.png'
-
 import Creators from './(components)/Creators/creators'
-import Navbar from './(components)/navbar'
+
 function Home() {
   return (
     <div >
