@@ -27,13 +27,12 @@ import Navbar from './(components)/navbar'
 function Home() {
   return (
     <div >
-      {/* <Navbar /> */}
 <Header />
-<div className='container  py-5 mx-auto grid lg:grid-cols-2 md:grid-cols-1  gap-10'>
+<div className='container  p-5 mx-auto grid lg:grid-cols-2 md:grid-cols-1  gap-10'>
 <div className='mt-10' >
 <h1 className='text-6xl font-bold '>Discover Digital Art & Collect NFTs</h1>
 <p className='text-2xl  py-5'>NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
-<div className='w-3/12 py-5'>
+<div className='w-6/12 py-5'>
 
 <Button title="Get Started " iconComp={<GoRocket />}  />
 </div>
