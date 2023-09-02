@@ -48,7 +48,7 @@ function Home() {
 
 
 </div>
-<div className='container py-5 mx-auto'>
+<div className='container py-5 '>
 <h1 className='text-3xl font-bold py-2'> Trendings Collection</h1>
 <p className='text-light font-light '>Checkout our weekly updated trending collection.</p>
 </div>
