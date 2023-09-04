@@ -86,6 +86,11 @@ function Home() {
 
 </div>
 
+<div className='py-24 container mx-auto  '>
+  <div>
+    <p className='text-3xl font-bold'>Discover More NFTs</p>
+  </div>
+</div>
     </div>
   )
 }
