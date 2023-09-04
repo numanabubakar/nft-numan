@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-        <p>All right reserved copyright &copy;  2023 by Numan Abubakar &heart;</p>
+    <div className='text-center py-6'>
+        <p>All right reserved copyright &copy;  2023 by Numan Abubakar &reg;</p>
     </div>
   )
 }
