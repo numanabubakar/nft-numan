@@ -90,7 +90,7 @@ function Home() {
 <div className='py-24 container mx-auto grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 '>
   <div>
     <p className='text-3xl font-bold'>Discover More NFTs</p>
-    <p className='font-light'>Explore new trending NFTs</p>
+    <p className='font-light'>Explore new trending NFTs.</p>
   </div>
   <div className=''>
 <Button title='see all' iconComp={<AiOutlineEye />} />
