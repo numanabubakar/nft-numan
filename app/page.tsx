@@ -76,7 +76,7 @@ function Home() {
 <Creators source={p6.src} Fname="DigiLab" Tsale="3.4" num="2" />
 <Creators source={p7.src} Fname="GravityOne" Tsale="3.4" num="3" />
 <Creators source={p8.src} Fname="Juanie" Tsale="3.4" num="4" />
-<Creators source={p9.src} Fname="BlueWhale" Tsale="3.4" num="5" />
+<Creators source={p9.src} Fname="BlueWhale" Tsale="3.5" num="5" />
 <Creators source={p10.src} Fname="Mr fox" Tsale="3.4" num="6" />
 <Creators source={p11.src} Fname="Shroomie" Tsale="3.4" num="7" />
 <Creators source={p12.src} Fname="Robotica" Tsale="3.4" num="8" />
