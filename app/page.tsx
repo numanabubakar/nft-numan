@@ -92,7 +92,7 @@ function Home() {
     <p className='text-3xl font-bold'>Discover More NFTs</p>
     <p className='font-light'>Explore new trending NFTs.</p>
   </div>
-  <div className=''>
+  <div className='text-end '>
 <Button title='see all' iconComp={<AiOutlineEye />} />
   </div>
 </div>
